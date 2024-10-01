@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Modern betűtípus */
     margin: 0;
     padding: 0;
     color: #4a3c31; /* Barna szín */
@@ -8,6 +8,7 @@ body {
 
 header {
     position: relative;
+    text-align: center; /* Középre igazítás */
 }
 
 .hero-image {
@@ -31,7 +32,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px; /* Növelt távolság a linkek között */
 }
 
 nav ul li a {
@@ -39,7 +40,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-    font-size: 1.1em; /* Kicsit nagyobb betűméret */
+    font-size: 1.2em; /* Nagyobb betűméret */
 }
 
 nav ul li a:hover {
@@ -48,6 +49,7 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    text-align: center; /* Középre igazítás */
 }
 
 section {
@@ -55,7 +57,7 @@ section {
 }
 
 h2 {
-    font-size: 1.5em; /* Kicsit nagyobb méret a szekciócímekhez */
+    font-size: 2.5em; /* Nagyobb méret a szekciócímekhez */
 }
 
 .gallery-grid {
@@ -80,7 +82,7 @@ footer {
 /* Villogó szöveg és figyelmeztetés */
 .flashing-text {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Nagyobb méret */
     animation: flash 1s infinite;
 }
 
@@ -91,7 +93,7 @@ footer {
 }
 
 .warning-text {
-    font-size: 0.8em;
+    font-size: 0.9em; /* Növelt méret */
     color: #555; /* Szürke szín */
     text-align: center;
     display: block; /* Új sorra helyezés */
