@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     color: #4a3c31; /* Barna szín */
@@ -11,7 +11,7 @@ header {
 }
 
 .hero-image {
-    background-image: url('hero.jpg'); /* A fő kép URL-je */
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipN7ViAQ8fORRasyyL37DbmgVHc1qnt19LRZVQTw=s680-w680-h510'); /* Cseréld ki a saját képed URL-jére */
     height: 300px;
     background-size: cover;
     display: flex;
@@ -38,6 +38,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f5f5dc; /* Világos bézs szín a hover állapotban */
 }
 
 main {
