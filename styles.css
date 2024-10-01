@@ -71,3 +71,23 @@ footer {
         flex-direction: column;
     }
 }
+
+.flashing-text {
+    font-weight: bold;
+    font-size: 1.2em;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+.warning-text {
+    font-size: 0.8em;
+    color: #555; /* Szürke szín */
+    text-align: center;
+    display: block; /* Új sorra helyezés */
+    margin-top: 5px;
+}
