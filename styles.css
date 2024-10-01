@@ -72,6 +72,7 @@ footer {
     }
 }
 
+/* Villogó szöveg és figyelmeztetés */
 .flashing-text {
     font-weight: bold;
     font-size: 1.2em;
