@@ -136,3 +136,16 @@ button:hover {
     max-width: 100%; /* A kép méretének optimalizálása */
     height: auto; /* Magasság automatikus beállítása */
 }
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatikus oszlopok */
+    gap: 5px; /* Kis hézag a képek között */
+}
+
+.gallery-grid img {
+    width: 100%; /* Kép szélessége 100% */
+    height: auto; /* Magasság automatikus */
+    border-radius: 5px; /* Lekerekített sarkok */
+    object-fit: cover; /* Kép méretének optimalizálása, hogy kitöltse a teret */
+}
