@@ -108,3 +108,14 @@ footer {
     border-radius: 5px; /* Lekerekített sarkok */
     object-fit: cover; /* Kép méretének optimalizálása, hogy kitöltse a teret */
 }
+
+.map-container {
+    margin-top: 20px; /* Térkép és lábléc közötti távolság */
+}
+
+.map-container iframe {
+    width: 100%; /* Képernyő szélesség */
+    max-width: 600px; /* Maximális szélesség */
+    height: 300px; /* Magasság */
+    border: none; /* Határ eltávolítása */
+}
